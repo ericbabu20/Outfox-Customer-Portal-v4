@@ -16,7 +16,7 @@
     root.setAttribute("data-theme", dark ? "dark" : "light");
     root.setAttribute("data-theme-pref", dark ? "dark" : "light");
     var meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.setAttribute("content", dark ? "#0d130e" : "#f5f4f0");
+    if (meta) meta.setAttribute("content", dark ? "#001e28" : "#f3f6f7");
   }
 
   window.HETheme = {
